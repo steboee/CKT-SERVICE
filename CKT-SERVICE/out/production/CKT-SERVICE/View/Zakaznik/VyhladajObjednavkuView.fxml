@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Zakaznici.VyhladajObjednavkuController">
+   <children>
+      <Button layoutX="545.0" layoutY="370.0" mnemonicParsing="false" onAction="#BackToMenu" text="Back" />
+      <Button layoutX="177.0" layoutY="115.0" mnemonicParsing="false" onAction="#FindOffer" text="Ukáž Objednávku" />
+      <TextArea fx:id="Display" layoutX="333.0" layoutY="77.0" prefHeight="246.0" prefWidth="232.0" />
+      <ChoiceBox fx:id="objednavky" layoutX="152.0" layoutY="80.0" prefHeight="26.0" prefWidth="158.0" />
+      <Label layoutX="197.0" layoutY="14.0" text="Vaše Objednávky">
+         <font>
+            <Font name="Dubai Regular" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="84.0" text="Vyberte si obejdnávku">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="352.0" layoutY="338.0" prefHeight="18.0" prefWidth="51.0" text="STAV">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="56.0" layoutY="383.0" />
+      <TextField fx:id="Stav" editable="false" layoutX="413.0" layoutY="334.0" style="-fx-background-color: white; -fx-border-color: lightgray;" />
+      <Button fx:id="Faktura" disable="true" layoutX="24.0" layoutY="348.0" mnemonicParsing="false" onAction="#Ukaz_fakturu" prefHeight="26.0" prefWidth="115.0" text="Faktúra" />
+      <Button fx:id="ZaznamVozidla" disable="true" layoutX="152.0" layoutY="348.0" mnemonicParsing="false" onAction="#Ukaz_zaznam" prefHeight="26.0" prefWidth="115.0" text="Záznam o vozidle" />
+      <ImageView fitHeight="163.0" fitWidth="171.0" layoutX="82.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/TRUE-CKT.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

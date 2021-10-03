@@ -1,0 +1,7 @@
+ctibor;1234;Ctibor;Kovalčík;
+ctibor;kovalcik;Ctiborko;Kovalcik;
+test;test;test;test;
+ad;123;adam;grega;
+janko;1234;Janko;Hraško;
+martin;123456;Martin;Lonský;
+test;1234;TesT;TESTERRR;

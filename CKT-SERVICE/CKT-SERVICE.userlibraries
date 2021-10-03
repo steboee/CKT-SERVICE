@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="lib">
+    <archive path="C:/Program Files/Java/jre1.8.0_271/lib/rt.jar" />
+    <archive path="C:/Program Files/Java/jre1.8.0_271/lib/jce.jar" />
+    <archive path="C:/Program Files/Java/jre1.8.0_271/lib/jfr.jar" />
+    <archive path="C:/Program Files/Java/jre1.8.0_271/lib/jsse.jar" />
+    <archive path="C:/Program Files/Java/jre1.8.0_271/lib/deploy.jar" />
+    <archive path="C:/Program Files/Java/jre1.8.0_271/lib/javaws.jar" />
+    <archive path="C:/Program Files/Java/jre1.8.0_271/lib/jfxswt.jar" />
+    <archive path="C:/Program Files/Java/jre1.8.0_271/lib/plugin.jar" />
+    <archive path="C:/Program Files/Java/jre1.8.0_271/lib/charsets.jar" />
+    <archive path="C:/Program Files/Java/jre1.8.0_271/lib/resources.jar" />
+    <archive path="C:/Program Files/Java/jre1.8.0_271/lib/management-agent.jar" />
+  </library>
+</eclipse-userlibraries>
+

@@ -1,0 +1,7 @@
+646401;Ctibor;Kovalčík;VW;Diesel;2.0 TDI;500;true;true;
+439908;Ctibor;Kovalčík;Skoda;Diesel;2.0 TDI;1500;true;true;
+181487;Ctibor;Kovalčík;Hyundai;Diesel;1.6 CRDi;1500;true;true;
+946954;Ctibor;Kovalčík;Seat;Diesel;1.6 TDI;1500;false;false;
+339229;Ctibor;Kovalčík;VW;Diesel;2.0 TDI;2000;true;true;
+302442;TesT;TESTERRR;Hyundai;Diesel;1.6 CRDi;1000;true;false;
+747128;Ctiborko;Kovalcik;Skoda;Diesel;2.0 TDI;400;true;false;

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="500.0" prefWidth="500.0"
+            style="-fx-background-color: white;"
+            xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Controller.Other.MainWindowController">
+   <children>
+      <ImageView fitHeight="299.0" fitWidth="304.0" layoutX="109.0" layoutY="-63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/TRUE-CKT.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="51.0" layoutY="168.0" prefHeight="54.0" prefWidth="397.0" text="Vaše autá naša starosť" textAlignment="CENTER">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="209.0" layoutY="376.0" mnemonicParsing="false" onAction="#Login" prefHeight="26.0" prefWidth="77.0" text="LOGIN" />
+      <PasswordField fx:id="password" layoutX="174.0" layoutY="339.0" promptText="heslo" />
+      <TextField fx:id="username" layoutX="174.0" layoutY="302.0" promptText="meno" />
+      <Label fx:id="loginlabel" alignment="CENTER" layoutX="122.0" layoutY="221.0" opacity="0.0" prefHeight="65.0" prefWidth="274.0" textFill="RED">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="209.0" layoutY="415.0" mnemonicParsing="false" onAction="#Register" prefHeight="26.0" prefWidth="78.0" text="Register" />
+   </children>
+</AnchorPane>
